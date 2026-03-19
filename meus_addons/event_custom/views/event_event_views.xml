@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_event_form_inherit_groups" model="ir.ui.view">
+        <field name="name">event.event.form.inherit.groups</field>
+        <field name="model">event.event</field>
+        <field name="inherit_id" ref="event.view_event_form"/>
+        <field name="arch" type="xml">
+            
+            <xpath expr="//field[@name='user_id']" position="after">
+                <field name="allowed_group_id" string="Grupo Restrito" options="{'no_create': True}"/>
+                <field name="is_user_allowed" invisible="1"/>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>

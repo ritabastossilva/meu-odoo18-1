@@ -50,3 +50,9 @@ package.json
 /man/
 /share/
 /src/
+
+# Minhas pastas personalizadas
+.vscode/
+venv/
+odoo.conf
+*.log

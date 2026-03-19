@@ -15,7 +15,7 @@ services:
     ports:
       - "8069:8069"
     volumes:
-      - .:/usr/lib/python3/dist-packages/odoo
+      - ./meus_addons:/mnt/extra-addons
       - odoo-web-data:/var/lib/odoo
     environment:
       - HOST=db
