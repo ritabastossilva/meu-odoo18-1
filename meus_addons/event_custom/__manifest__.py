@@ -1,6 +1,6 @@
 {
     'name': 'Customização de Eventos - Grupos',
-    'version': '1.0',
+    'version': '1.0.1',
     'category': 'Marketing',
     'depends': ['event'],  # Importante: depende do módulo oficial de eventos
     'data': [
